@@ -1,0 +1,51 @@
+﻿.radioButton,
+.radioButton.active {
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  font-size: 24px;
+  cursor: pointer;
+  align-items: center;
+  background: none;
+  border: none;
+}
+
+.radioButton.active::before,
+.radioButton::before {
+  content: "";
+  flex-shrink: 0;
+  position: relative;
+  width: 27px;
+  height: 27px;
+  margin-right: 8px;
+  border: 1px solid #000;
+  border-radius: 100vh;
+  background: transparent;
+}
+
+.radioButton.active::after,
+.radioButton::after {
+  content: "";
+  flex-shrink: 0;
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  top: 8px;
+  left: 13px;
+  background: #fcdb1a;
+  border-radius: 100vh;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+.radioButton::after {
+  opacity: 0;
+  -webkit-transform: scale(0);
+  transform: scale(0);
+}
+
+.radioButton.active::after {
+  opacity: 1;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}

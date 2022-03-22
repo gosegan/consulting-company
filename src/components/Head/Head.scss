@@ -1,0 +1,54 @@
+﻿.head {
+  width: 90%;
+  margin: 0 auto 178px;
+  padding-top: 30px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+
+  &__menu {
+    display: grid;
+    grid-gap: 36px;
+    grid-template-columns: repeat(5, auto);
+  }
+
+  &__logo {
+    color: #ffe02c;
+    font-size: 17px;
+    display: flex;
+    align-items: flex-end;
+  }
+
+  &__logo img {
+    margin-right: 10px;
+  }
+
+  &__item {
+    a {
+      color: #000000;
+      font-size: 19px;
+    }
+
+    a:hover {
+      color: #5f44eb;
+    }
+  }
+
+  &__links {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(2, auto);
+  }
+
+  &__link {
+    svg {
+      color: #201c1c;
+      height: 25px;
+      transition: all 0.5s ease;
+    }
+
+    svg:hover {
+      color: #5f44eb;
+    }
+  }
+}
