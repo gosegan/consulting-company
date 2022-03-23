@@ -24,16 +24,15 @@ const Contact = () => {
     <SectionWrapper>
       <div className="container">
         <SectionTitle>
-          Оставьте ваш <span className="yellow-text">номер телефона</span>,{" "}
-          <br></br>и мы свяжемся с вами{" "}
-          <span className="blue-text">в течении часа</span> в удобной для вас
-          соцсети
+          Leave your <span className="yellow-text">phone number</span>,{" "}
+          <br></br>and we will contact you{" "}
+          <span className="blue-text">within an hour</span> in a social network convenient for you
         </SectionTitle>
         <form className="form" action="POST">
           <input
             type="tel"
             className="form__input"
-            placeholder="Ваш номер телефона"
+            placeholder="Your telephone number"
           />
           <RadiosWrap
             className="radioWrap"
@@ -48,7 +47,7 @@ const Contact = () => {
               );
             })}
           </RadiosWrap>
-          <button className="form__btn btn">Свяжитесь со мной</button>
+          <button className="form__btn btn">Contact me </button>
         </form>
       </div>
     </SectionWrapper>

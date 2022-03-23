@@ -23,30 +23,29 @@ const Donwload = () => {
   return (
     <SectionWrapper>
       <div className="container">
-        <SectionTitle>Хотите заняться всем сами?</SectionTitle>
-        <SectionUnderTitle>Без проблем!</SectionUnderTitle>
+        <SectionTitle>Do you want to do everything yourself?</SectionTitle>
+        <SectionUnderTitle>No problem!</SectionUnderTitle>
         <div className="download">
           <p className="download__text">
-            Вот вам файл с возможными 15-ю причинами, почему ваш сайт может
-            проседать по продажам
+            Here is a file for you with possible 15 reasons why your site may be sagging in sales
           </p>
           <div className="download__wrapper">
             <p className="download__here">Тот самый файл</p>
             <a href="#" className="download__link" download>
-              Скачать
+              Download
             </a>
           </div>
           <p className="download__text-fly">Download</p>
         </div>
         <h3 className="download__title">
-          Но, если вы хотите быть удовлетворены{" "}
-          <span className="blue-text">наиболее качественно </span>
-          выполненным заданием, либо у вас попросту{" "}
-          <span className="blue-text">нет времени</span> этим заниматься -{" "}
-          <span className="yellow-text">жмите на кнопку</span>
+          But if you want to be satisfied{" "}
+          <span className="blue-text">the most high-quality </span>
+          a completed task, or you simply don't have{" "}
+          <span className="blue-text">time</span> do this -{" "}
+          <span className="yellow-text">click on the button</span>
         </h3>
         <a href="#" className="btn download__btn">
-          Обновите мой сайт
+          Update my website
         </a>
       </div>
     </SectionWrapper>

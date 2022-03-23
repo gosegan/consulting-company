@@ -23,17 +23,17 @@ const Reasons = () => {
   return (
     <SectionWrapper className="reasons">
       <div className="container">
-        <SectionTitle>Откройте свой сайт</SectionTitle>
-        <SectionUnderTitle>Может быть что-нибудь не так?</SectionUnderTitle>
+        <SectionTitle>Open your website</SectionTitle>
+        <SectionUnderTitle>Maybe something is wrong?</SectionUnderTitle>
         <figure
           style={{ textAlign: "center", position: "relative", margin: "0px" }}
         >
           <img src={comp} alt="computer" className="reasons__img" />
-          <p className="reasons__txt1">Может вам не нравится текст?</p>
-          <p className="reasons__txt2">Или вы не довольны иллюстрациями?</p>
-          <p className="reasons__txt3">Может устарел стиль вашего сайта?</p>
-          <p className="reasons__txt4">А может хочется просто освежить сайт?</p>
-          <p className="reasons__txt5">Или нужно добавить немного анимации?</p>
+          <p className="reasons__txt1">Maybe you don't like the text?</p>
+          <p className="reasons__txt2">Or are you not happy with the illustrations?</p>
+          <p className="reasons__txt3">Maybe the style of your site is outdated?</p>
+          <p className="reasons__txt4">Or maybe you just want to refresh the site?</p>
+          <p className="reasons__txt5">Or do I need to add some animation?</p>
           <div className="circle blue-circle circle1"></div>
           <div className="circle yellow-circle circle2"></div>
           <div className="circle yellow-circle circle3"></div>
@@ -44,7 +44,7 @@ const Reasons = () => {
           <div className="circle blue-circle circle8"></div>
         </figure>
         <a href="#" className="btn reasons__btn">
-          Да, а что мне делать?
+          Yes, what should I do?
         </a>
       </div>
     </SectionWrapper>

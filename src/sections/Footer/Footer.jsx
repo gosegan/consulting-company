@@ -1,7 +1,7 @@
 ﻿import React from "react";
 import styled from "styled-components";
-import { InstagramIcon } from "../../images/instagram.svg"
-import { LinkedinIcon } from "../../images/instagram.svg"
+import InstagramIcon from "../../images/instagram.png"
+import FacebookIcon from "../../images/facebook.png"
 
 const SectionWrapper = styled.div`
   padding: 55px 0;
@@ -16,11 +16,11 @@ const Footer = () => {
           Quick Sale
         </figure>
         <div className="links">
-          <a className="links__link" href="#">
-            <img src={InstagramIcon} alt="icon" />
+          <a className="link__img head__link" href="#">
+            <img className="link__img" src={InstagramIcon} alt="icon" />
           </a>
-          <a className="links__link" href="#">
-            <img src={LinkedinIcon} alt="icon" />
+          <a className="link__img head__link" href="#">
+            <img className="link__img" src={FacebookIcon} alt="icon" />
           </a>
         </div>
       </div>

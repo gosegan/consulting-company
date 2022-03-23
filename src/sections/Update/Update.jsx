@@ -18,14 +18,14 @@ const Update = () => {
   return (
     <SectionWrapper className="advantages-wrapper">
       <div className="container">
-        <SectionTitle>Что вам даст обновление вашего сайта?</SectionTitle>
+        <SectionTitle>What will updating your site give you?</SectionTitle>
         <div className="advantages">
-          <AdvItem icon="" text="Увеличатся продажи" />
-          <AdvItem icon="" text="Увеличится трафик" />
-          <AdvItem icon="" text="Клиенты будут довольны" />
+          <AdvItem icon="" text="Sales will increase" />
+          <AdvItem icon="" text="Traffic will increase" />
+          <AdvItem icon="" text="Customers will be satisfied" />
         </div>
         <a href="#" className="btn advantages-btn">
-          Обновите мой сайт
+          Update my website
         </a>
         <div className="circle yellow-circle circle1"></div>
         <div className="circle blue-circle circle2"></div>
